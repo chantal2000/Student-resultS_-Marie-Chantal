@@ -24,6 +24,6 @@ function result() {
     if (def == undefined) {
         document.getElementById("output").innerHTML = "<h1>There is no information about this student<hr>"
     } else {
-        document.getElementById("output").innerHTML = "<hr> Kotlin score  is ${def.Kotlin},<hr>Javascript score is ${def.Javascript},<hr> Python score is {def.Python}<hr>"
+        document.getElementById("output").innerHTML = `<hr> Kotlin score  is ${def.Kotlin},<hr>Javascript score is ${def.Javascript},<hr> Python score is ${def.Python}<hr>`
     }
 }
