@@ -1,23 +1,29 @@
 function result() {
-
-
+   
     let students = {
         Chantal: {
             Kotlin: 89,
             Javascript: 90,
             Python: 70,
         },
-        Emma: {
-            Kotlin: 89,
-            Javascript: 90,
-            Python: 70,
+        Mercy: {
+            Kotlin: 82,
+            Javascript: 71,
+            Python: 72,
         },
-        Peter: {
-            Kotlin: 89,
-            Javascript: 90,
-            Python: 70,
+        Marie: {
+            Kotlin: 88,
+            Javascript: 91,
+            Python: 76,
+        },
+        Niyonkuru: {
+            Kotlin: 99,
+            Javascript: 80,
+            Python: 90,
         }
     }
+
+ 
     var studentname = document.getElementById('studentname').value;
     let input = studentname
     let def = students[input]
